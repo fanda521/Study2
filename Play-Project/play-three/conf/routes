@@ -1,0 +1,38 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+#1.http uri java调用
+#java调用部分的controllers可以省略
+#GET   /bye   controllers.Application.bye  和下面的效果等价
+GET     /bye   Application.bye
+#2.动态路由
+GET    /client/{id}   controllers.Application.bye
+#3.正则匹配,
+GET   /client1/{<[a-z]{4,10}>id}   controllers.Application.client
+# Ignore favicon requests
+GET     /favicon.ico                            404
+#4.创建自己的目录结构看看怎么访问的,好像只能放在系统特定的地方
+GET    /params1  controllers.Application.params1
+#5.测试自动转换参数类型
+GET   /params2   controllers.Application.params2
+#6.测试play自动接收参数，也就是http请求的参数与action的参数自动对接，只要参数名一样就行
+GET   /params3   controllers.Application.params3
+
+GET   /paramsDate   controllers.Application.paramsDate
+GET   /paramsPerson     controllers.Application.paramsPerson
+#通过renderArgs传递数据到html模板页面
+GET   /paramsPersonArgs controllers.Application.paramsPersonArgs
+#直接通过render（parame1，parame2，...）传递数据到html模板页面，使用的是action中变量的名称
+GET   /paramsPersonRender controllers.Application.paramsPersonRender
+##5.一般action的名字是和html模板的名字是一样的，这是默认的做法
+##如果想要指定也是可以的
+GET   /paramsPersonRender2       controllers.Application.paramsPersonRender2
+#GET   /temp     controllers.Application.paramsPersonRender2
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}

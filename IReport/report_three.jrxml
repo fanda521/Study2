@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report_three" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="82a97a62-a04d-4047-ba32-ee9b86003ec2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#7FFF00">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#F2FFE6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="New Dataset 1" uuid="60746f4e-e5aa-4247-8f28-41d4cd35ace0"/>
+	<subDataset name="myDataset2" uuid="3a54e5e8-f4b3-4252-8e18-f1dd721551be">
+		<queryString language="SQL">
+			<![CDATA[SELECT
+     tablevo.`sex`,
+     tablevo.`hobby`,
+     tablevo.`birthday`,
+     tablevo.`id`,
+     tablevo.`name`,
+     tablevo.`age`
+FROM
+     `tablevo` tablevo]]>
+		</queryString>
+		<field name="sex" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hobby" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="birthday" class="java.sql.Timestamp">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="id" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="name" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="age" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="72" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="157" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 1" style="table 1" x="15" y="70" width="540" height="87" uuid="cb3d515c-0aee-46ac-8456-b405616fe665"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="myDataset2" uuid="4ff6245a-410d-4bd1-adff-7f1bc1c59cae">
+						<connectionExpression><![CDATA[]]></connectionExpression>
+					</datasetRun>
+					<jr:columnGroup width="0" uuid="d2669cf1-5676-4b61-a90f-399d169000ce">
+						<jr:column width="90" uuid="ab868349-c4ef-4045-b937-d18ad3d16b62">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="530c8856-c8f3-4e7e-8fdc-a8f664c9283c"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[sex]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="ec97c283-c090-4815-9409-0ff7d357cb91"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{sex}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="47607aa3-fdaf-4868-a37c-f13cf59d2a5b">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="1157ac67-1b8b-464f-86a1-2cebe54fa395"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[hobby]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="78e80490-dd8b-485a-b6cd-3e8b0f684b80"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{hobby}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="63ceb855-750a-4b78-94c4-80cdd358fd5d">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="01d15663-8415-44af-b65c-626bb6d68266"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[birthday]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="f035c944-b55b-4c5b-9cc2-b22e3b3a0b07"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{birthday}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="5cef1896-127f-4e52-b4f3-f38074226b54">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="b20d0269-9a0d-4ded-9ad4-5d68de2863d1"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[id]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="51d84ab7-c88a-4515-9ae7-4305f226bbcd"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="f380d3ba-8f20-4728-8359-ae59868a1331">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="f79529a8-22a4-4aba-92b0-58a0bbf93dc3"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[name]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="93f3d3c8-a662-4a86-b8f0-46799bb9cc4d"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="695bd242-2f58-4ac8-bb2d-9b7d00ddb61f">
+							<jr:tableHeader style="table 1_TH" height="30"/>
+							<jr:tableFooter style="table 1_TH" height="30"/>
+							<jr:columnHeader style="table 1_CH" height="30">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" uuid="aa8b5276-5cf1-41ef-9a2f-364ca9909431"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<text><![CDATA[age]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 1_CH" height="30"/>
+							<jr:detailCell style="table 1_TD" height="20">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="20" uuid="afde27de-dfc3-42bb-8d3d-a341e49257ae"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="14"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="work_report" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="eeb9ea86-b467-47bf-8bbe-32b0cd4135df">
+	<property name="ireport.zoom" value="2.1435888100000016"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="3030"/>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="257" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="35" y="10" width="100" height="20" uuid="9102e1b5-38d3-49ae-8bd2-9b029e8b02e4"/>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="10" width="137" height="20" uuid="4a1c13d1-1433-434a-b98c-80cd843ee349"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="10" width="14" height="20" uuid="6bc07a9a-291c-4935-842f-29513b9274b2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="10" width="100" height="20" uuid="b7daae91-546d-4eca-8208-b4724a3c7320"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="29" width="100" height="20" uuid="2de0798d-5728-4b0e-b232-8804724f754a"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="29" width="137" height="20" uuid="770a0580-6a99-48f3-a1e0-5c5296296da7"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="29" width="14" height="20" uuid="91d91151-c37a-4d42-9606-9c156c72c395"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="29" width="100" height="20" uuid="f941b24b-c1cb-4ed9-8866-f830f727e2dc"/>
+				<textFieldExpression><![CDATA["Buy"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="48" width="100" height="20" uuid="13b9723f-08b8-432b-b29b-a3a779e764af"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="48" width="137" height="20" uuid="9323e6d1-03b7-4888-9af8-192c0af98eec"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="48" width="100" height="20" uuid="0e18da87-1d26-401d-b963-e34042dc2807"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="48" width="14" height="20" uuid="08680602-2eec-4c8a-b5de-734d6037033d"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="67" width="137" height="20" uuid="28307593-b417-4ce6-98f5-545cfe9f9ed8"/>
+				<textFieldExpression><![CDATA["Payment Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="67" width="100" height="20" uuid="bc7344f0-2827-45ee-b5c6-f42851085bee"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="67" width="100" height="20" uuid="f3728409-8e55-47b7-843d-f0ff0e86f9d2"/>
+				<textFieldExpression><![CDATA["付款日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="67" width="14" height="20" uuid="21b2fac0-6168-4647-b998-df4fbf138998"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="143" width="100" height="20" uuid="7cb6a545-312a-4741-a3a5-cc491a25aa5f"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="86" width="14" height="20" uuid="d6d454ce-3694-43ca-b277-52a6b5be1412"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="105" width="100" height="20" uuid="56869a33-0068-4a14-9a2a-c7351066d1d6"/>
+				<textFieldExpression><![CDATA["面額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="124" width="137" height="20" uuid="72961e7b-9a0f-4a6a-beda-a2b325af36f9"/>
+				<textFieldExpression><![CDATA["Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="124" width="100" height="20" uuid="f02d654c-654a-4239-92ca-a00881e9a614"/>
+				<textFieldExpression><![CDATA["價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="143" width="137" height="20" uuid="ef682776-3320-40b6-b0ea-a98327f6aa84"/>
+				<textFieldExpression><![CDATA["Coupon Rate"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="143" width="100" height="20" uuid="c12bd514-08b9-40fe-9234-19c8658fd101"/>
+				<textFieldExpression><![CDATA["票息(%)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="105" width="100" height="20" uuid="9ad3de54-ba34-4098-818e-03226542e59c"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="105" width="137" height="20" uuid="70f59615-b76e-4cb1-810c-343b21702f84"/>
+				<textFieldExpression><![CDATA["Naminal Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="86" width="137" height="20" uuid="1ba7a595-b572-42e3-a140-7cea457c263f"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="124" width="100" height="20" uuid="b9ee5571-d88e-4b1d-979e-6beacf7fb1f3"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="86" width="100" height="20" uuid="d92f5ce1-3bdd-439a-9d1b-a18efa4f82a5"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="124" width="14" height="20" uuid="eedb9152-c4de-4b03-8140-b9778a039d46"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="35" y="86" width="100" height="20" uuid="76be0be1-3cf9-486d-8cb1-6c4fc4b35029"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="143" width="14" height="20" uuid="60395143-0d99-4285-a85c-85dc2f779a82"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="105" width="14" height="20" uuid="1d5c9b27-0b80-4318-9125-c5369473f305"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="181" width="100" height="20" uuid="3a553716-3239-4b40-8029-1af0f876d890"/>
+				<textFieldExpression><![CDATA["轉賬銀行費用"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="181" width="14" height="20" uuid="b799ebd6-ac59-449c-bd80-ae319b14d8e8"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="162" width="137" height="20" uuid="1747973f-53cc-4444-a914-0f94863fa3a0"/>
+				<textFieldExpression><![CDATA["Accrued Interest"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="219" width="137" height="20" uuid="fe9a0e9c-4f14-4cd7-b4f2-4b299d3dd17f"/>
+				<textFieldExpression><![CDATA["Payment Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="219" width="100" height="20" uuid="062e37e9-e693-4f0b-8482-3d023e436d00"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="200" width="14" height="20" uuid="5d6c600a-cca8-4305-8c8d-b218152537ba"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="181" width="100" height="20" uuid="b508001c-6075-4ff0-baad-ecd543cf8fdd"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="162" width="14" height="20" uuid="5c575e0f-43b5-4216-9a8c-a9b6991e53f5"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="181" width="137" height="20" uuid="bd763692-f9ef-445a-a841-9b96845b9a52"/>
+				<textFieldExpression><![CDATA["Fee (Conrrespondent Bank)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="219" width="100" height="20" uuid="c2894833-6f26-46e1-8e38-382d402435d4"/>
+				<textFieldExpression><![CDATA["結算賬號"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="162" width="100" height="20" uuid="3ecb5e97-81c7-41e0-9478-d28cb7c5941e"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="219" width="14" height="20" uuid="4e7f3007-b98c-4d25-884d-ced2e7f66975"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="200" width="100" height="20" uuid="92662f5a-f93b-4094-928c-d09468365f7f"/>
+				<textFieldExpression><![CDATA["費用金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="200" width="100" height="20" uuid="32260cbb-b9cc-4b91-bb16-8a8b9f33710c"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="200" width="137" height="20" uuid="d06b5226-6482-4ec0-820b-6ef573664350"/>
+				<textFieldExpression><![CDATA["Subscription Fee"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="35" y="162" width="100" height="20" uuid="6f1ac16b-91b3-4440-a733-0cbf9d3d3636"/>
+				<textFieldExpression><![CDATA["前手息"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="293">
+			<textField>
+				<reportElement x="34" y="29" width="100" height="20" uuid="51d2e2f6-d897-4bfc-8c02-0fb901ae00df"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="105" width="14" height="20" uuid="53ba4889-300d-4b8a-b107-d93a90fb3d0b"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="48" width="137" height="20" uuid="5da3dbcc-d4a2-4493-92c3-8a61700296b6"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="181" width="100" height="20" uuid="5b66f8e9-3e98-47f3-a4a3-0dc26c53f762"/>
+				<textFieldExpression><![CDATA["累計利息"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="181" width="100" height="20" uuid="9164bb50-c995-4525-a9d3-f9475f926c03"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="181" width="137" height="20" uuid="32085e3d-9092-4922-9dce-4205b4671f7d"/>
+				<textFieldExpression><![CDATA["Accrued Interest"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="143" width="137" height="20" uuid="71a7bb74-ef27-4fb7-b640-1eec046cbdca"/>
+				<textFieldExpression><![CDATA["Transaction Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="219" width="100" height="20" uuid="78216d57-c077-4236-95c7-452aa626f00f"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="124" width="14" height="20" uuid="3ffbbb24-70ad-410a-9b51-3850c9e29930"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="143" width="100" height="20" uuid="a6961ac6-df09-4d70-a3a7-1b8d4e2e6a2b"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="29" width="137" height="20" uuid="04cff1be-7ded-4b2a-853f-e0478bc82f29"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="86" width="100" height="20" uuid="65f7ecb8-eb7a-424a-9e32-172e32bd0674"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="143" width="100" height="20" uuid="8e25bc75-66d8-4220-aad1-6dfb3b069352"/>
+				<textFieldExpression><![CDATA["交易金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="143" width="14" height="20" uuid="68a2c5c5-b298-485b-97d8-bc431252abab"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="48" width="14" height="20" uuid="8823bdd7-6be9-4b44-9f30-e23fa7e51b47"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="10" width="100" height="20" uuid="9318f39e-5f88-417b-88a5-da3492342718"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="34" y="10" width="100" height="20" uuid="8201dbc8-912c-488a-a624-3a68f884586a"/>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="105" width="137" height="20" uuid="85da4946-9064-45eb-9545-65ff29a7a570"/>
+				<textFieldExpression><![CDATA["Naminal Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="124" width="100" height="20" uuid="f87f177d-13d9-48b5-beb8-8d7b894e98bd"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="162" width="14" height="20" uuid="f1eafab4-10f6-4912-8929-93482a9727fa"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="200" width="14" height="20" uuid="4aef6b29-ea6e-4cfe-972c-c3f061d48382"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="34" y="86" width="100" height="20" uuid="6f155ceb-cd7a-45f1-8c43-8d3947f306da"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="10" width="14" height="20" uuid="4ac29dae-4296-49d6-bb2a-e1f9cc4704d4"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="181" width="14" height="20" uuid="e14c8710-ca4e-4b52-9aa6-27a0c0a7b013"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="67" width="100" height="20" uuid="42359601-6a01-43a8-959b-65f9a74e0fd1"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="105" width="100" height="20" uuid="ae08f532-701c-4ec4-b386-744137514c4f"/>
+				<textFieldExpression><![CDATA["面額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="219" width="100" height="20" uuid="56af424d-58b6-4e0b-a48b-21c4fa9da189"/>
+				<textFieldExpression><![CDATA["費用金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="200" width="137" height="20" uuid="f6169578-e939-4bb4-9bda-256bdccd0c39"/>
+				<textFieldExpression><![CDATA["Fee (Correspondent Bank)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="48" width="100" height="20" uuid="1b60984b-39cf-4709-96ff-4b4fc01b855a"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="86" width="137" height="20" uuid="0d4122db-05a7-4823-a54a-5b58c717de7c"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="200" width="100" height="20" uuid="e19a2a2d-d794-4b6e-aab3-84b072f76ea5"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="67" width="137" height="20" uuid="3b7aa8e9-6953-4819-8557-02f0921a4778"/>
+				<textFieldExpression><![CDATA["Payment Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="67" width="100" height="20" uuid="50fb4997-f379-4b5b-9a8e-437f42e91837"/>
+				<textFieldExpression><![CDATA["付款日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="29" width="100" height="20" uuid="c1ea7b7b-2a4e-4312-b10d-2ef74b8c85ec"/>
+				<textFieldExpression><![CDATA["Sell"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="162" width="137" height="20" uuid="022c0160-1ece-4660-8379-fd6ac88271b8"/>
+				<textFieldExpression><![CDATA["Coupon Rate"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="34" y="162" width="100" height="20" uuid="5d7e6fad-bedc-4bae-a583-0d21951a7110"/>
+				<textFieldExpression><![CDATA["票息"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="105" width="100" height="20" uuid="7318a265-0781-4381-ae0b-6cba5fc2b130"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="86" width="14" height="20" uuid="81a9b9ef-2b26-43a7-9d74-6360f54f39c6"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="10" width="137" height="20" uuid="3268719e-9aa6-4fd7-bf26-7c53d55e5ff9"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="162" width="100" height="20" uuid="e5bd0284-9530-445b-8b44-1891ea59b7bd"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="48" width="100" height="20" uuid="159e502e-f2ea-415f-bffb-d687a30415f7"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="200" width="100" height="20" uuid="67c369a0-96e8-4ba3-bf87-fb0883814161"/>
+				<textFieldExpression><![CDATA["轉賬銀行費用"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="219" width="14" height="20" uuid="8cd49d92-73b0-426d-832c-2a2312ac723b"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="124" width="100" height="20" uuid="8d331876-6e1b-4f35-b795-8970054763c0"/>
+				<textFieldExpression><![CDATA["價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="67" width="14" height="20" uuid="aa11b2b0-5402-4adf-9057-984179c2c235"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="219" width="137" height="20" uuid="18ff2781-7044-4bad-b13b-1c0b8da0db66"/>
+				<textFieldExpression><![CDATA["Redemption Fee"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="124" width="137" height="20" uuid="70b0e6bf-77ed-4e0e-b92f-df78fd99bf20"/>
+				<textFieldExpression><![CDATA["Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="29" width="14" height="20" uuid="d459e336-14f9-45fd-b7bc-7ec0f55ec1bb"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="257" width="100" height="20" uuid="47189f68-97f0-4f48-8f74-8e0afa39080f"/>
+				<textFieldExpression><![CDATA["結算賬號"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="257" width="100" height="20" uuid="49328f29-60b1-4c34-a2b3-ea1e43c007eb"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="238" width="100" height="20" uuid="2c424320-4a46-4c42-a46e-85fa66212212"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="257" width="14" height="20" uuid="57df90f8-2c53-4575-947b-b72005d7661d"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="238" width="14" height="20" uuid="9d5dbf3e-29f3-4487-8817-0d2524e57bf9"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="257" width="137" height="20" uuid="ec083318-96fa-4c34-9143-8b4750e7bfe1"/>
+				<textFieldExpression><![CDATA["Settlement Account"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="167" y="238" width="137" height="20" uuid="d036e06b-3588-4d84-9019-dd3ecc10c9b1"/>
+				<textFieldExpression><![CDATA["Total Settlement Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="34" y="238" width="100" height="20" uuid="b5eb4e78-31c2-40b7-88e8-558edb70fc96"/>
+				<textFieldExpression><![CDATA["總結算金額"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="201">
+			<textField>
+				<reportElement x="318" y="39" width="14" height="20" uuid="53e05088-abf9-4474-a6a3-14b0d1fb8576"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="115" width="100" height="20" uuid="939006c7-0971-4ad4-ba79-b737d1279b9e"/>
+				<textFieldExpression><![CDATA["股息金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="115" width="100" height="20" uuid="7c121cb2-7c98-4f1e-a031-1449aec647f2"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="115" width="137" height="20" uuid="6db0e68f-39c7-4257-9a61-a79cd2e140da"/>
+				<textFieldExpression><![CDATA["Dividend Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="77" width="152" height="20" uuid="8f1284be-b90c-462c-b1ab-1eef8d1c5e01"/>
+				<textFieldExpression><![CDATA["Total Holding Entitled to Dividend : 90.00000"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="153" width="100" height="20" uuid="12d33d17-40b1-4ef3-9974-5bf86488c68f"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="58" width="14" height="20" uuid="82db0ba8-f789-4343-9efb-2ce469a6a1d2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="77" width="100" height="20" uuid="4d7474f0-a343-4181-9b21-95a1e6621810"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="20" width="100" height="20" uuid="cc5ba180-e2af-467b-88f8-a6e31248781c"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="77" width="100" height="20" uuid="3e9d02ae-636a-452f-893e-1ad13b307c03"/>
+				<textFieldExpression><![CDATA["可獲發股息之單位總數"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="77" width="14" height="20" uuid="f1e4a25f-275f-4be0-a6c1-1e3699a7bc61"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="39" width="137" height="20" uuid="784289b6-2e47-4645-899d-90846622e884"/>
+				<textFieldExpression><![CDATA["Record Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="58" width="100" height="20" uuid="93ff2ff2-9abe-4602-9a2f-e6052d0cbe0f"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="96" width="14" height="20" uuid="b2dc98ff-da4b-44cb-9933-e0375aa75f0d"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="134" width="14" height="20" uuid="e29ae8a7-1d30-4752-bf62-bec3190dd671"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="33" y="20" width="100" height="20" uuid="18f602d1-7a3e-44b7-a934-ade313d1d65e"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="115" width="14" height="20" uuid="b2780338-3694-4f76-9cf3-6434011fdd67"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="39" width="100" height="20" uuid="84648ea3-d40c-452f-bde7-afafd01dc2c4"/>
+				<textFieldExpression><![CDATA["登記日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="153" width="100" height="20" uuid="ff9ba932-59c8-4084-a33e-addb3191c1dd"/>
+				<textFieldExpression><![CDATA["存入賬戶號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="134" width="137" height="20" uuid="38e73137-e0b3-4eb4-9a41-438e3d637c98"/>
+				<textFieldExpression><![CDATA["Subscription Fee"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="20" width="137" height="20" uuid="c4ebf379-2902-41dd-be8d-c45e1059c22a"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="134" width="100" height="20" uuid="e5825729-039e-4686-9d5e-418cc3cebedd"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="96" width="137" height="20" uuid="3f2e2f8a-10df-445f-8011-ef5ddcac152f"/>
+				<textFieldExpression><![CDATA["Dividend per unit"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="33" y="96" width="100" height="20" uuid="05d791a6-8e42-4cb2-871d-f22bf49e4417"/>
+				<textFieldExpression><![CDATA["每單位所得股息"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="39" width="100" height="20" uuid="6df809fc-ecc2-4027-8d78-e457ed169a85"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="20" width="14" height="20" uuid="a1bfe235-0bb9-4040-8e7e-9a228dae86a0"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="96" width="100" height="20" uuid="10b2a3e2-6b88-4c1e-a581-d5aec3269201"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="134" width="100" height="20" uuid="c719c463-6402-49dd-a163-635a7909dbd6"/>
+				<textFieldExpression><![CDATA["費用金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="153" width="14" height="20" uuid="bb1b412b-a448-4255-b971-dac206c5a024"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="58" width="100" height="20" uuid="99dbff3f-d1ed-4ea6-b69b-6a394b39ff37"/>
+				<textFieldExpression><![CDATA["派息日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="153" width="137" height="20" uuid="51a90c5a-0a18-4f01-b8e8-1a0925aeaa7b"/>
+				<textFieldExpression><![CDATA[" Credit A/C No."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="58" width="137" height="20" uuid="c52e46de-a347-4deb-a964-74701db319e8"/>
+				<textFieldExpression><![CDATA["Payment Date"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="167">
+			<textField>
+				<reportElement x="32" y="67" width="100" height="20" uuid="ee1643d2-fac9-4c6d-a689-599b5433db08"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="86" width="14" height="20" uuid="ad497844-339e-4655-b088-50541bc28c05"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="29" width="137" height="20" uuid="cc41b3b8-6dfc-4c69-bccd-012a4525d2b2"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="124" width="137" height="20" uuid="9d4a804b-deee-416a-af6b-60c5e3a69f7b"/>
+				<textFieldExpression><![CDATA["Net Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="105" width="14" height="20" uuid="d7e9239d-67be-4296-979c-ff57aef7e249"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="124" width="100" height="20" uuid="0dc06bfb-f890-4802-89a1-bd497070d4a8"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="67" width="137" height="20" uuid="f467579a-1323-47c1-8909-0035296fd879"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="48" width="100" height="20" uuid="b8bc2381-6225-4269-9b91-086fe2db3ee6"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="124" width="100" height="20" uuid="94bc3c9b-3304-403a-a626-926bce815886"/>
+				<textFieldExpression><![CDATA["淨額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="124" width="14" height="20" uuid="e5dcdaf0-0f10-4a67-bd3a-c933a188f3cb"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="29" width="14" height="20" uuid="bb5ffa86-d8f1-48ec-8e31-2100b4c12bb8"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="10" width="100" height="20" uuid="b025bbf5-5393-480a-8286-a11154045095"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="32" y="10" width="100" height="20" uuid="a33b4a39-a0ab-4c6b-a46f-ed6611a6706c"/>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="86" width="137" height="20" uuid="869315d8-b7ca-44db-b0b4-2035b4565cbc"/>
+				<textFieldExpression><![CDATA["Unit Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="105" width="100" height="20" uuid="90bb0be2-d7c5-44ed-a9bb-33e3a8ce3b0d"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="32" y="48" width="100" height="20" uuid="040de2c0-8bb5-4e24-84fe-796ba3f57996"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="10" width="14" height="20" uuid="e15074aa-7c2b-49d2-95f0-af4b0fecc82b"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="86" width="100" height="20" uuid="2fca4f90-8fa7-4231-a16e-beba0977e53e"/>
+				<textFieldExpression><![CDATA["單位價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="29" width="100" height="20" uuid="7815499b-0515-4072-af73-4197c494caf3"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="48" width="137" height="20" uuid="f09d0d19-fff7-4731-961a-29806c0b06e4"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="67" width="100" height="20" uuid="b19401d8-6e78-4782-8ee7-8c9095c4b26a"/>
+				<textFieldExpression><![CDATA["Asset In"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="86" width="100" height="20" uuid="881f5ed1-67f5-443f-b489-f5609e916c2b"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="48" width="14" height="20" uuid="20abc9d7-b620-4522-ab68-93150e4f0ae5"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="10" width="137" height="20" uuid="322930f2-3815-4774-bf62-ca03eb072034"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="331" y="29" width="100" height="20" uuid="588847fd-4241-415b-84ba-fbbd6a4b30c9"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="105" width="100" height="20" uuid="729f71f9-7a9e-4272-bbf4-f9616b00c82c"/>
+				<textFieldExpression><![CDATA["單位數量"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="105" width="137" height="20" uuid="e5e90840-d90e-4724-ab3e-065aa8140b00"/>
+				<textFieldExpression><![CDATA["Number of Units"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="67" width="14" height="20" uuid="36adcd45-9426-411e-9a76-7b69ce5ecfb4"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="159">
+			<textField>
+				<reportElement x="31" y="29" width="100" height="20" uuid="5a253f00-e507-49e1-b6f1-465bbad2d443"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="67" width="137" height="20" uuid="2cf8979a-7ebd-4233-8ae3-7ed0a67b93ab"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="124" width="100" height="20" uuid="5468e0d1-a454-494a-9835-e6db105cf479"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="48" width="137" height="20" uuid="cd467ec3-fb22-49da-81d0-7b5a289c2106"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="105" width="100" height="20" uuid="5739f48d-f9ea-449f-9eb0-8ccc1a4c6417"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="124" width="137" height="20" uuid="77bdcf25-f567-4193-81f6-3565b73858fc"/>
+				<textFieldExpression><![CDATA["Net Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="10" width="137" height="20" uuid="779e7092-8574-485f-ab6c-ef89e2fc4238"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="105" width="14" height="20" uuid="8b1dde10-c360-421d-88e1-5594af1bb9b5"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="29" width="137" height="20" uuid="e5d27428-f34d-4ddd-8c58-621676c0f828"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="31" y="10" width="100" height="20" uuid="44e0ad5c-83b1-4b31-ab5e-3588b330c9b8"/>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="10" width="14" height="20" uuid="65a2775a-50b6-4591-a61c-86689a3f6237"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="124" width="100" height="20" uuid="8dfec789-487a-4efd-8be8-93b2b53c8c35"/>
+				<textFieldExpression><![CDATA["淨額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="105" width="137" height="20" uuid="ca4dd78a-e58d-48b7-9d62-03716dbf0ffe"/>
+				<textFieldExpression><![CDATA["Number of Units"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="67" width="14" height="20" uuid="0af90ca6-389d-4457-965c-1c1f2c7ebaf9"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="48" width="14" height="20" uuid="1535ffa9-1482-4573-b3aa-d4f5847578c3"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="86" width="137" height="20" uuid="92a36082-4cbd-487b-a883-796e8c2f2d07"/>
+				<textFieldExpression><![CDATA["Unit Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="29" width="14" height="20" uuid="4c2ce6f2-b579-47cc-82f1-3ca429dc09de"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="124" width="14" height="20" uuid="bf772889-0c5c-4ab3-8426-ba853143b6dc"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="31" y="48" width="100" height="20" uuid="ae856ff7-62c4-4ecf-8f03-a93f487d8282"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="29" width="100" height="20" uuid="ffd40401-536a-48bc-8d71-701a3184ef0a"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="67" width="100" height="20" uuid="af8eb6a9-8f72-4487-a2d8-b663408b24cc"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="48" width="100" height="20" uuid="1663bab3-6965-434f-8f99-5094b9d62c26"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="67" width="100" height="20" uuid="fbafa806-918f-45ec-bf14-1b433ae4f177"/>
+				<textFieldExpression><![CDATA["Asset Out"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="86" width="14" height="20" uuid="da4fd695-91ff-4c82-ab9b-5cd8b316b828"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="105" width="100" height="20" uuid="788da337-7a6b-4f47-b233-db867bc1ec51"/>
+				<textFieldExpression><![CDATA["單位數量"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="86" width="100" height="20" uuid="91407140-60fd-49cf-ba6e-13c94369347d"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="86" width="100" height="20" uuid="653a6f52-2d78-4402-b96a-581d1cb12d64"/>
+				<textFieldExpression><![CDATA["單位價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="10" width="100" height="20" uuid="25878d38-e541-4482-a48c-38d596430f41"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="220">
+			<textField>
+				<reportElement x="30" y="29" width="100" height="20" uuid="a8ce8381-9779-4c8c-bbbf-97e1f6c3cc78"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="124" width="14" height="20" uuid="35dc5e7a-e6ea-47d9-919e-5b027183c197"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="48" width="137" height="20" uuid="d2e284a7-fc86-46e5-8b5c-23ed737ea881"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="181" width="100" height="20" uuid="41546ccb-d4f3-4380-8b7d-d4ed963ccb3c"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="143" width="14" height="20" uuid="8d4dfb88-f013-4b48-a9dc-33d627115313"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="29" width="137" height="20" uuid="786b9e93-656b-4af2-af6e-c75d28aaad44"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="86" width="100" height="20" uuid="14d3d34a-3539-4f76-b3cb-96750cb3279e"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="48" width="14" height="20" uuid="da4b47bd-3b47-45ad-a48d-1f330d747c5d"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="10" width="100" height="20" uuid="277cc868-f338-4cbc-9268-3dac19f5f97b"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="30" y="10" width="100" height="20" uuid="767815f4-969f-4faf-9592-bc578b622ad4"/>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="124" width="137" height="20" uuid="b855a4b8-adf0-4201-b642-ac258d86034a"/>
+				<textFieldExpression><![CDATA["Naminal Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="143" width="100" height="20" uuid="f3367f5e-93e4-436b-ae0a-8e687535f7be"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="162" width="14" height="20" uuid="8aa5fc08-533c-4d92-9a11-25fb0fcab8c1"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="30" y="86" width="100" height="20" uuid="a85e20cc-f286-48ec-89d6-ff23d26a9616"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="10" width="14" height="20" uuid="87ab6fde-15b2-4710-8ecb-da7829316cb4"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="67" width="100" height="20" uuid="55da837f-4dd4-490d-b644-905da3688b29"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="124" width="100" height="20" uuid="102e7432-dea4-4b0e-89fe-b23fd488504c"/>
+				<textFieldExpression><![CDATA["面額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="181" width="100" height="20" uuid="1bbb0240-a199-4695-9a62-ad186a738671"/>
+				<textFieldExpression><![CDATA["結算賬號"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="162" width="137" height="20" uuid="82010075-1e1e-4569-9b52-194eca3860af"/>
+				<textFieldExpression><![CDATA["Settlement Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="48" width="100" height="20" uuid="f4d43ff2-a06b-4c55-af6d-ea6cb5715aab"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="86" width="137" height="20" uuid="a7226170-5f09-4505-99cf-b625d41216ff"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="162" width="100" height="20" uuid="2a9e1a17-3852-4559-b882-b03ab3d35ecc"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="67" width="137" height="20" uuid="08a4873f-954e-46ac-b434-733b88b2a840"/>
+				<textFieldExpression><![CDATA["Payment Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="67" width="100" height="20" uuid="602a94c6-5963-45fc-86d2-dd54d9c936d5"/>
+				<textFieldExpression><![CDATA["付款日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="29" width="100" height="20" uuid="f6ef0c86-bc36-4ab5-90af-00a952b66b1e"/>
+				<textFieldExpression><![CDATA["Callback"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="124" width="100" height="20" uuid="cfdbe06f-e306-4688-8de0-c57a6b84d1d5"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="86" width="14" height="20" uuid="7be6033f-670b-44d1-86b3-168be594ac5a"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="10" width="137" height="20" uuid="59e75001-ecfc-4ad5-abe3-842bf607eb45"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="48" width="100" height="20" uuid="ac0f3e18-01d4-442b-9700-ba8c72dab9dc"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="162" width="100" height="20" uuid="69dc9455-57fb-4fdc-9ae1-2d29f03140af"/>
+				<textFieldExpression><![CDATA["結算金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="181" width="14" height="20" uuid="e8adec27-2f2b-432d-b97b-71cdb4471919"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="143" width="100" height="20" uuid="83f9c513-a94e-4d2a-a5b9-fe9f60cdde13"/>
+				<textFieldExpression><![CDATA["贖回價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="67" width="14" height="20" uuid="fc0503dd-65ed-492f-bbb7-14b14211ed21"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="181" width="137" height="20" uuid="f2f06326-04e6-4efd-976e-68283e670c3b"/>
+				<textFieldExpression><![CDATA["Settlement Account"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="143" width="137" height="20" uuid="0ee22e60-f9bd-49b6-b0ce-b269468081e1"/>
+				<textFieldExpression><![CDATA["Call Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="29" width="14" height="20" uuid="6ff887b0-5473-45db-a14b-2f7e55ae9e16"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="105" width="100" height="20" uuid="262bca58-5a9a-4fd0-a03d-e6c4528508b7"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="105" width="137" height="20" uuid="e105fd13-3eaa-4fcd-8394-e948fd91822d"/>
+				<textFieldExpression><![CDATA["Call Date"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="30" y="105" width="100" height="20" uuid="1beb6695-eb9a-40ad-a211-83068e1ca4c9"/>
+				<textFieldExpression><![CDATA["提早贖回日"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="105" width="14" height="20" uuid="8eec628d-1d2d-43e2-9b94-f7c2e39dea9e"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="267">
+			<textField>
+				<reportElement x="28" y="29" width="100" height="20" uuid="54c50273-e173-4ac8-a72b-063aff3270df"/>
+				<textFieldExpression><![CDATA["交易類別"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="124" width="14" height="20" uuid="93df173d-2dd1-44a1-8173-ebe7cd973fd6"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="48" width="137" height="20" uuid="d61ddc08-1368-459d-9cf0-892c3ee2e0a8"/>
+				<textFieldExpression><![CDATA["Transaction Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="105" width="137" height="20" uuid="9324f3bb-6abc-4f22-994d-13fa91fe88f5"/>
+				<textFieldExpression><![CDATA["Maturity Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="181" width="100" height="20" uuid="62a792a3-ba07-4e29-a07b-cb7fc5b30fd7"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="143" width="14" height="20" uuid="10059fc1-0942-4f1d-9419-6b89daf7ecd2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="105" width="100" height="20" uuid="d0f1f907-263b-4cb8-8e23-0c8b6b7c7b12"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="29" width="137" height="20" uuid="2ea191cb-5ea8-4839-be32-e0e5989a9b19"/>
+				<textFieldExpression><![CDATA["Transaction Type"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="86" width="100" height="20" uuid="1e135954-8d32-4d83-854c-4a788adbe4b1"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="105" width="100" height="20" uuid="c55a19c3-b757-4d46-9f14-c188e6fa6997"/>
+				<textFieldExpression><![CDATA["到期日"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="105" width="14" height="20" uuid="0400116f-b518-4af1-8d87-f3725bc474a2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="48" width="14" height="20" uuid="2050a352-6c80-42f4-8309-1d65bab7bd2c"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="10" width="100" height="20" uuid="1726f5d3-692d-4376-88b1-5d12831f7008"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="28" y="10" width="100" height="20" uuid="4a07b9fa-c867-4690-a097-f44933e9aa26"/>
+				<textElement>
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["交易號碼"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="124" width="137" height="20" uuid="c6c9171a-301d-4104-a70f-2b23d71c1403"/>
+				<textFieldExpression><![CDATA["Naminal Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="143" width="100" height="20" uuid="1a442a79-99d8-4448-9f5e-cf7fef2c5d75"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="162" width="14" height="20" uuid="31e4e550-3c39-429e-a008-3006d504f7f2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="28" y="86" width="100" height="20" uuid="df6c9fc7-9f62-43b8-839b-3d4864737ba9"/>
+				<textFieldExpression><![CDATA["債券名稱"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="10" width="14" height="20" uuid="961d674e-a53f-4e18-9b14-72c529332656"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="67" width="100" height="20" uuid="47fb6240-1452-497e-98a8-17c8636449d9"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="124" width="100" height="20" uuid="5f515a98-1345-4f07-afea-94af995909cd"/>
+				<textFieldExpression><![CDATA["面額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="181" width="100" height="20" uuid="fda02132-0aa7-4b3b-ad53-8550c1414383"/>
+				<textFieldExpression><![CDATA["結算賬號"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="162" width="137" height="20" uuid="0b305320-01dd-40b1-b9b1-c7e8968eeff6"/>
+				<textFieldExpression><![CDATA["Settlement Amount"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="48" width="100" height="20" uuid="8a7e211d-22ce-4d13-a4ba-aeaf96ae3135"/>
+				<textFieldExpression><![CDATA["交易日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="86" width="137" height="20" uuid="564c906b-7e17-44bd-bab5-83bb483db059"/>
+				<textFieldExpression><![CDATA["Bond Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="162" width="100" height="20" uuid="6c803266-7a70-4df5-a7e1-1064eb42ec18"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="67" width="137" height="20" uuid="52326715-5a5b-4f5c-96b2-ceee1b033334"/>
+				<textFieldExpression><![CDATA["Payment Date"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="67" width="100" height="20" uuid="0b1569bc-68a9-4d26-b237-1ea51a27369f"/>
+				<textFieldExpression><![CDATA["付款日期"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="29" width="100" height="20" uuid="06abe097-11d8-45b6-b82c-b9e1d8a577d8"/>
+				<textFieldExpression><![CDATA["Maturity"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="124" width="100" height="20" uuid="2ef5949c-51da-4420-9cb0-a7cb455a7261"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="86" width="14" height="20" uuid="d992b62d-a607-4ccf-9ddc-c57ec25bf211"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="10" width="137" height="20" uuid="287ff389-1f65-46b8-89b2-a1d28bee8691"/>
+				<textFieldExpression><![CDATA["Order Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="48" width="100" height="20" uuid="9a989115-684f-47d9-8a3a-3178260ecae9"/>
+				<textFieldExpression><![CDATA["value"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="162" width="100" height="20" uuid="b4466bdc-2ec0-4227-8a18-e52cf54c9b01"/>
+				<textFieldExpression><![CDATA["結算金額"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="181" width="14" height="20" uuid="28a342eb-32a7-430f-aa59-df4a6d6d92b2"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="28" y="143" width="100" height="20" uuid="b6b05b8c-46f6-4c62-b87d-262df5ba4551"/>
+				<textFieldExpression><![CDATA["到期價格"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="67" width="14" height="20" uuid="f2540407-f01d-45b4-9304-5d51bdcd700b"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="181" width="137" height="20" uuid="084a1968-5cd3-4ff8-a2de-567206ff0931"/>
+				<textFieldExpression><![CDATA["Settlement Account"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="143" width="137" height="20" uuid="389253f5-e5ac-4afb-bfce-cddf29fe0262"/>
+				<textFieldExpression><![CDATA["Maturity Price"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="29" width="14" height="20" uuid="ca5b5d25-3047-41b5-aa99-3e9abb6314a1"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
